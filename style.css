@@ -1,0 +1,29 @@
+body{
+    margin: auto;
+    padding: auto;
+    background: slategrey;
+}
+.container{
+    margin: auto;
+    padding: 0px;
+    width: 100vw;
+    /* width: 1000px; */
+    height: 100vh;
+    background: aqua;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 50px;
+    width: 200px;
+    height: 200px;
+    background: blueviolet;
+    /* text-align: center; */
+    
+}
